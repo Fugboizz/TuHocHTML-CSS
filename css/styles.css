@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+header {
+    background-color: brown;
+    min-height: 200%;
+}
+
+main {
+    background-color: aliceblue;
+    min-height: 400px;
+    padding: 20px 0px;
+}
+
+footer {
+    background-color: black;
+    min-height: 400px;
+}
+
+.boxcenter {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.boxcenter2 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.boxleft {
+    float: left;
+    width: calc(60% - 20px);
+}
+
+.boxright {
+    float: left;
+    width: 40%;
+}
+
+.bgcolo {
+    background-color: chocolate;
+    min-height: 400px;
+}
+
+.mr {
+    margin-right: 20px;
+}
+
+.boxnew img {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boxnew>a {
+    font-size: 16pt;
+
+}
+
+.boxnew p a {
+    font-size: 10pt;
+}

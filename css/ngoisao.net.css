@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    line-height: 130%;
+}
+
+p {
+    margin: 10px 0px;
+
+}
+
+.boxcenter {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.row2 {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.boxleft {
+    float: left;
+    width: calc(70% - 25px);
+    margin-right: 25px;
+}
+
+.boxright {
+    float: left;
+    width: 30%;
+}
+
+.demo {
+    background-color: aqua;
+    min-height: 300px;
+}
+
+.boxnew {
+    float: left;
+    width: calc(calc(100% - 100px)/4);
+
+
+}
+
+.mr {
+    margin-right: calc(100px/3);
+}
+
+.boximg {
+    position: relative;
+}
+
+.boximg img {
+    width: 100%;
+    float: right;
+
+}
+
+a.linkTop {
+    font-size: 20pt;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+a.linkTop:hover {
+    font-size: 20pt;
+    color: #06F;
+}
+
+.boxtitle {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    background-image: linear-gradient(to right, #069, #399);
+    padding: 5px 10px;
+    color: aliceblue;
+
+}
+
+.boximg2 {
+    width: 100%;
+
+
+}
+
+a.linkTop2 {
+    font-size: 12pt;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.linkTop2:hover {
+    font-size: 12pt;
+    color: #06F;
+}
+
+.boximg2 img {
+    width: 100%;
+    min-height: 25%;
+}
+
+a.linkTop3 {
+    font-size: 12pt;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.linkTop3:hover {
+    font-size: 12pt;
+    color: #06F;
+}
+
+a {
+    font-size: 10pt;
+    color: #333;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 130%;
+}
+
+a:hover {
+    font-size: 10pt;
+    color: #36F;
+    font-weight: normal;
+}
+
+.boxnew img {
+    width: 100%;
+    float: left;
+}
+
+.row3 {
+    width: 100%;
+    float: left;
+
+}
+
+.row2 img {
+    width: 100%;
+    float: left;
+}

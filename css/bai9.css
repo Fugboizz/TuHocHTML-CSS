@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+header {
+    background-color: orange;
+    min-height: 300px;
+}
+
+nav {
+    background-color: greenyellow;
+    min-height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+article {
+    float: left;
+    width: 75%;
+    background-color: palevioletred;
+    min-height: 400px;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    min-height: 400px;
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: gray;
+    min-height: 300px;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}

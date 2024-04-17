@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+}
+
+.row {
+    float: left;
+    min-width: 100%;
+}
+
+header {
+    background-color: orange;
+    min-height: 300px;
+}
+
+footer {
+    background-color: gray;
+    min-height: 400px;
+}
+
+nav {
+    background-color: yellowgreen;
+    min-height: 50px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+article {
+    background-color: pink;
+    float: left;
+    width: 60%;
+    min-height: 400px;
+}
+
+aside {
+    background-color: blueviolet;
+    float: left;
+    width: 40%;
+    min-height: 400px
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.aNav {
+    margin-right: 10px;
+}
